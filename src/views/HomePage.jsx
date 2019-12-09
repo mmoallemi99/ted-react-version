@@ -8,6 +8,7 @@ import Description from "../components/Description";
 import Countdown from "../components/Countdown";
 import Speakers from "../components/Speakers";
 import TEDxDescription from "../components/TEDxDescription";
+import Team from "../components/Team";
 
 function HomePage() {
     return (
@@ -21,6 +22,7 @@ function HomePage() {
                 <Countdown/>
                 <Speakers/>
                 <TEDxDescription/>
+                <Team/>
             </div>
         </>
 
