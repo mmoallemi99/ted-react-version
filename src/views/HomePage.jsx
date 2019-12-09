@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import StickyNavbar from "../components/StickyNavbar";
 import Description from "../components/Description";
 import Countdown from "../components/Countdown";
+import Speakers from "../components/Speakers";
 
 function HomePage() {
     return (
@@ -17,6 +18,7 @@ function HomePage() {
                 <StickyNavbar/>
                 <Description/>
                 <Countdown/>
+                <Speakers/>
             </div>
         </>
 
