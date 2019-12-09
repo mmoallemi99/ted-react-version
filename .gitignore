@@ -3,15 +3,5 @@
 .idea/modules.xml
 .idea/ted-v2.iml
 .idea/workspace.xml
-public/favicon.ico
-public/index.html
 public/manifest.json
-README.md
-src/App.css
-src/App.js
-src/App.test.js
-src/index.css
-src/index.js
-src/logo.svg
-src/serviceWorker.js
 yarn.lock
