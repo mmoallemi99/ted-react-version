@@ -7,6 +7,7 @@ import StickyNavbar from "../components/StickyNavbar";
 import Description from "../components/Description";
 import Countdown from "../components/Countdown";
 import Speakers from "../components/Speakers";
+import TEDxDescription from "../components/TEDxDescription";
 
 function HomePage() {
     return (
@@ -19,6 +20,7 @@ function HomePage() {
                 <Description/>
                 <Countdown/>
                 <Speakers/>
+                <TEDxDescription/>
             </div>
         </>
 
