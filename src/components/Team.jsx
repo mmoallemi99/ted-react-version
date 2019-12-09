@@ -15,6 +15,8 @@ import l from '../assets/images/12.jpg'
 import m from '../assets/images/13.jpg'
 import n from '../assets/images/14.jpg'
 import o from '../assets/images/15.jpg'
+import { ReactComponent as Instagram } from '../assets/images/instagram.svg'
+import { ReactComponent as Linkedin } from '../assets/images/linkedin.svg'
 
 function Team() {
     return (
@@ -28,8 +30,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={a} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -40,8 +42,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={b} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -52,8 +54,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={c} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -64,8 +66,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={d} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -76,8 +78,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={e} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -88,8 +90,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={f} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -100,8 +102,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={g} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -112,8 +114,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={h} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -124,8 +126,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={i} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -136,8 +138,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={j} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -148,8 +150,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={k} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -160,8 +162,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={l} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -172,8 +174,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={m} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -184,8 +186,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={n} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>
@@ -196,8 +198,8 @@ function Team() {
                         <figure className="team__members_member_image_overlay">
                             <img src={o} alt="" className="team__members_member_image"/>
                             <figcaption className="icons">
-                                <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="socialIcon" href="#"><Instagram width="20px" /></a>
+                                <a className="socialIcon" href="#"><Linkedin width="20px" /></a>
                             </figcaption>
                         </figure>
                         <h3 className="team__members_member_name">Farid Shokri</h3>

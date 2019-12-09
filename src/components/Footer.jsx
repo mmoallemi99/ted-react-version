@@ -1,5 +1,8 @@
 import React from 'react'
 import '../assets/styles/home-page.scss'
+import { ReactComponent as Instagram } from '../assets/images/instagram.svg'
+import { ReactComponent as Telegram } from '../assets/images/telegram.svg'
+import { ReactComponent as Twitter } from '../assets/images/twitter.svg'
 
 function Footer() {
     return (
@@ -7,13 +10,13 @@ function Footer() {
             <div className="container">
                 <ul className="footer__socials">
                     <li className="footer__socials_item">
-                        <a href="#"><i className="fa fa-twitter"></i></a>
+                        <a href="#"><Twitter width="65px" /></a>
                     </li>
                     <li className="footer__socials_item">
-                        <a href="#"><i className="fa fa-telegram"></i></a>
+                        <a href="#"><Telegram width="65px" style={{marginRight: "1rem"}} /></a>
                     </li>
                     <li className="footer__socials_item">
-                        <a href="#"><i className="fa fa-instagram"></i></a>
+                        <a href="#"><Instagram width="65px" /></a>
                     </li>
                 </ul>
                 <a href="#" className="footer__link">Send Us Your Email</a>
