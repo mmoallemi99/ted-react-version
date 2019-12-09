@@ -3,7 +3,6 @@
 .idea/modules.xml
 .idea/ted-v2.iml
 .idea/workspace.xml
-package.json
 public/favicon.ico
 public/index.html
 public/manifest.json
