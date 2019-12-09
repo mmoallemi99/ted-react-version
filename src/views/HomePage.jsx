@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import StickyNavbar from "../components/StickyNavbar";
 import Description from "../components/Description";
+import Countdown from "../components/Countdown";
 
 function HomePage() {
     return (
@@ -15,6 +16,7 @@ function HomePage() {
                 <Header/>
                 <StickyNavbar/>
                 <Description/>
+                <Countdown/>
             </div>
         </>
 
