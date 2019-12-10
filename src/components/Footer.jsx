@@ -10,13 +10,13 @@ function Footer() {
             <div className="container">
                 <ul className="footer__socials">
                     <li className="footer__socials_item">
-                        <a href="#"><Twitter width="65px" /></a>
+                        <a href="#"><img src={'static/img/src/assets/images/twitter.svg'} width="65px" /></a>
                     </li>
                     <li className="footer__socials_item">
-                        <a href="#"><Telegram width="65px" style={{marginRight: "1rem"}} /></a>
+                        <a href="#"><img src={'static/img/src/assets/images/telegram.svg'} width="65px" style={{marginRight: "1rem"}} /></a>
                     </li>
                     <li className="footer__socials_item">
-                        <a href="#"><Instagram width="65px" /></a>
+                        <a href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="65px" /></a>
                     </li>
                 </ul>
                 <a href="#" className="footer__link">Send Us Your Email</a>
