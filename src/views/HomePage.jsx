@@ -27,7 +27,6 @@ function HomePage() {
                 <Footer/>
             </div>
         </>
-
     )
 }
 

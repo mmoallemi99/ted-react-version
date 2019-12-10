@@ -57,50 +57,50 @@ body {
   display: none !important;
 }
 
-//@font-face {
-//  font-family: SF;
-//  src: url("../../fonts/SF-UI-Display-Ultralight.otf");
-//}
-//
-//@font-face {
-//  font-family: SF_regular;
-//  src: url("../../fonts/SF-UI-Display-Regular.ttf");
-//}
-//
-//@font-face {
-//  font-family: SF_bold;
-//  src: url("../../fonts/sf-ui-display-bold.woff");
-//}
-//
-//@font-face {
-//  font-family: Diodrum_extralight;
-//  src: url("../../fonts//Diodrum/DiodrumArabic-Extralight.ttf");
-//}
-//
-//@font-face {
-//  font-family: Diodrum_light;
-//  src: url("../../fonts/Diodrum/DiodrumArabic-Light.ttf");
-//}
-//
-//@font-face {
-//  font-family: Diodrum_regular;
-//  src: url("../../fonts/Diodrum/DiodrumArabic-Regular.ttf");
-//}
-//
-//@font-face {
-//  font-family: Diodrum_medium;
-//  src: url("../../fonts/Diodrum/DiodrumArabic-Medium.ttf");
-//}
-//
-//@font-face {
-//  font-family: Diodrum_bold;
-//  src: url("../../fonts/Diodrum/DiodrumArabic-Bold.ttf");
-//}
-//
-//@font-face {
-//  font-family: Diodrum_semibold;
-//  src: url("../../fonts/Diodrum/DiodrumArabic-Semibold.ttf");
-//}
+@font-face {
+  font-family: SF;
+  src: url("../fonts/SF-UI-Display-Ultralight.otf");
+}
+
+@font-face {
+  font-family: SF_regular;
+  src: url("../fonts/SF-UI-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: SF_bold;
+  src: url("../fonts/sf-ui-display-bold.woff");
+}
+
+@font-face {
+  font-family: Diodrum_extralight;
+  src: url("../fonts/Diodrum/DiodrumArabic-Extralight.ttf");
+}
+
+@font-face {
+  font-family: Diodrum_light;
+  src: url("../fonts/Diodrum/DiodrumArabic-Light.ttf");
+}
+
+@font-face {
+  font-family: Diodrum_regular;
+  src: url("../fonts/Diodrum/DiodrumArabic-Regular.ttf");
+}
+
+@font-face {
+  font-family: Diodrum_medium;
+  src: url("../fonts/Diodrum/DiodrumArabic-Medium.ttf");
+}
+
+@font-face {
+  font-family: Diodrum_bold;
+  src: url("../fonts/Diodrum/DiodrumArabic-Bold.ttf");
+}
+
+@font-face {
+  font-family: Diodrum_semibold;
+  src: url("../fonts/Diodrum/DiodrumArabic-Semibold.ttf");
+}
 
 .navbar__menu_list_item_link {
   font-family: Diodrum_extralight;

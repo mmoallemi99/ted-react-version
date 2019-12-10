@@ -69,4 +69,4 @@ class Countdown extends React.Component {
 
 }
 
-export default Countdown;
+export default Countdown
