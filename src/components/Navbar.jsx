@@ -94,13 +94,6 @@ class Navbar extends React.Component {
         return (
             <nav className="navbar">
                 <div className="navbar__container">
-                    <div className="navbar__menuButton">
-                        <div className="menuButtonIcon">
-                            <span className="navbar__menuButton_icon-1"></span>
-                            <span className="navbar__menuButton_icon-2"></span>
-                            <span className="navbar__menuButton_icon-3"></span>
-                        </div>
-                    </div>
 
                     <div className="navbar__menu">
                         <ul className="navbar__menu_list">
@@ -118,6 +111,20 @@ class Navbar extends React.Component {
                             </li>
                         </ul>
                     </div>
+                    <nav role="navigation">
+                        <div id="menuToggle">
+                            <input type="checkbox" />
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <ul id="menu">
+                                <a href="#"><li>Home</li></a>
+                                <a href="#"><li>The Speakers</li></a>
+                                <a href="#"><li>Our Team</li></a>
+                                <a href="#"><li>Sponsers</li></a>
+                            </ul>
+                        </div>
+                    </nav>
 
                     <div className="navbar__buttons">
                         <a href="#registerPopUp" className="navbar__register">

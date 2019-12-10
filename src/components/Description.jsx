@@ -5,7 +5,7 @@ function Description() {
     return (
         <section className="description">
             <div className="container">
-                <h2 className="description__title">Hello New World</h2>
+                <h2 className="description__title">Hello "New" World</h2>
                 <span className="underline_red"></span>
                 <span className="underline_black"></span>
             </div>
