@@ -238,7 +238,7 @@ body {
 }
 
 .header {
-  background-image: url("../images/headerBG.png");
+  background-image: url("/static/img/src/assets/images/headerBG.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
