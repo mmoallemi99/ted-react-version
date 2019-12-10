@@ -8,16 +8,19 @@ import axios from 'axios';
 
 class Speakers extends React.Component {
     state = {
-        persons: []
+        speakers: []
     };
 
     componentDidMount() {
         axios.get(`http://127.0.0.1:8000/api/speakers/`)
             .then(res => {
-                const persons = res.data;
-                this.setState({ persons });
+                const speakers = res.data;
+                this.setState({ speakers });
+                console.log(speakers);
             })
     }
+
+
 
     render() {
         return (

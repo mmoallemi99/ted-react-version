@@ -260,6 +260,34 @@ body {
   width: 100%;
 }
 
+.header__logo {
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 56.25em) {
+  .header__logo {
+    width: 60%;
+  }
+}
+
+.header__details {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-family: SF, sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, -100%);
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -902,13 +930,26 @@ body {
 
 @media only screen and (hover: hover) {
   .speakers__people_person_image_overlay .icons {
-    top: 100%;
+    width: 20rem;
+    height: 3rem;
+    top: 85%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    visibility: hidden;
-    transition: all .3s ease-in-out;
-    backface-visibility: hidden;
+    transform: translateX(-50%);
+    background-color: #ff2b06;
+    padding: .5rem 0;
+    opacity: 1;
+    visibility: visible;
+  }
+  @media only screen and (hover: hover) {
+    .speakers__people_person_image_overlay .icons {
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      visibility: hidden;
+      transition: all .3s ease-in-out;
+      backface-visibility: hidden;
+    }
   }
 }
 
