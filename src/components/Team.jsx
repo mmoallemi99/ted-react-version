@@ -17,6 +17,7 @@ import n from '../assets/images/14.jpg'
 import o from '../assets/images/15.jpg'
 import axios from 'axios'
 
+
 class Team extends React.Component {
     state = {
         team: []
@@ -26,11 +27,21 @@ class Team extends React.Component {
         axios.get(`http://127.0.0.1:8000/api/staffs/`)
             .then(res => {
                 const team = res.data;
-                this.setState({ team });
+                this.setState({team});
             })
     }
 
     render() {
+        const firstName = this.state.team.map( function (person, index) {
+            return <li key={index}>{person.first_name}</li>;
+        });
+        const lastName = this.state.team.map( function (person, index) {
+            return <li key={index}>{person.last_name}</li>;
+        });
+        const role = this.state.team.map( function (person, index) {
+            return <li key={index}>{person.role}</li>;
+        });
+
         return (
             <section className="team">
                 <div className="container">
@@ -46,8 +57,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[0]}<div>&nbsp;</div>{lastName[0]}</ul>
+                            <p className="team__members_member_position">{role[0]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -58,8 +69,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[7]}<div>&nbsp;</div>{lastName[7]}</ul>
+                            <p className="team__members_member_position">{role[7]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -70,8 +81,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[10]}<div>&nbsp;</div>{lastName[10]}</ul>
+                            <p className="team__members_member_position">{role[10]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -82,8 +93,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[2]}<div>&nbsp;</div>{lastName[2]}</ul>
+                            <p className="team__members_member_position">{role[2]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -94,8 +105,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[12]}<div>&nbsp;</div>{lastName[12]}</ul>
+                            <p className="team__members_member_position">{role[12]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -106,8 +117,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[3]}<div>&nbsp;</div>{lastName[3]}</ul>
+                            <p className="team__members_member_position">{role[3]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -118,8 +129,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[4]}<div>&nbsp;</div>{lastName[4]}</ul>
+                            <p className="team__members_member_position">{role[4]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -130,8 +141,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[1]}<div>&nbsp;</div>{lastName[1]}</ul>
+                            <p className="team__members_member_position">{role[1]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -142,8 +153,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[14]}<div>&nbsp;</div>{lastName[14]}</ul>
+                            <p className="team__members_member_position">{role[14]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -154,8 +165,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[16]}<div>&nbsp;</div>{lastName[16]}</ul>
+                            <p className="team__members_member_position">{role[16]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -166,8 +177,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[5]}<div>&nbsp;</div>{lastName[5]}</ul>
+                            <p className="team__members_member_position">{role[5]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -178,8 +189,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[8]}<div>&nbsp;</div>{lastName[8]}</ul>
+                            <p className="team__members_member_position">{role[8]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -190,8 +201,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[6]}<div>&nbsp;</div>{lastName[6]}</ul>
+                            <p className="team__members_member_position">{role[6]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -202,8 +213,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[13]}<div>&nbsp;</div>{lastName[13]}</ul>
+                            <p className="team__members_member_position">{role[13]}</p>
                         </div>
 
                         <div className="team__members_member">
@@ -214,8 +225,8 @@ class Team extends React.Component {
                                     <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
                                 </figcaption>
                             </figure>
-                            <h3 className="team__members_member_name">Farid Shokri</h3>
-                            <p className="team__members_member_position">Blah Blah Blah.</p>
+                            <ul className="team__members_member_name">{firstName[17]}<div>&nbsp;</div>{lastName[17]}</ul>
+                            <p className="team__members_member_position">{role[17]}</p>
                         </div>
 
                     </div>

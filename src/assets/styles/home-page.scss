@@ -199,6 +199,8 @@ body {
   font-weight: bold;
   line-height: 1.5;
   color: black;
+  list-style-type: none;
+  display: inline-flex;
 }
 
 .team__members_member_position {
@@ -207,6 +209,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #616161;
+  list-style-type: none;
 }
 
 .footer__copyright {

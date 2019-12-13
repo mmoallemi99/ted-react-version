@@ -16,7 +16,6 @@ class Speakers extends React.Component {
             .then(res => {
                 const speakers = res.data;
                 this.setState({ speakers });
-                console.log(speakers);
             })
     }
 
