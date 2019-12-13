@@ -5,3 +5,4 @@
 .idea/workspace.xml
 public/manifest.json
 yarn.lock
+dist/main.js
