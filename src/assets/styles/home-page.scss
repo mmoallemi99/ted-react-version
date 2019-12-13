@@ -416,7 +416,7 @@ body {
 
 .form__input:focus {
   outline: none;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   border-bottom: 3px solid #ff2b06;
 }
 
@@ -477,6 +477,21 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: all .2s ease-in-out;
+}
+
+&__info {
+  width: 85%;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: #ffffe0;
+  border-left: 5px solid #e6db55;
+  color: #c0b000;
+
+  p {
+    font-family: SF_bold, sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
 }
 
 .registerPopUp__info {
