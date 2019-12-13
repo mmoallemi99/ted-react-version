@@ -52,8 +52,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={a} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[0]}<div>&nbsp;</div>{lastName[0]}</ul>
@@ -64,8 +64,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={b} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[7]}<div>&nbsp;</div>{lastName[7]}</ul>
@@ -76,8 +76,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={c} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[10]}<div>&nbsp;</div>{lastName[10]}</ul>
@@ -88,8 +88,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={d} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[2]}<div>&nbsp;</div>{lastName[2]}</ul>
@@ -100,8 +100,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={e} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[12]}<div>&nbsp;</div>{lastName[12]}</ul>
@@ -112,8 +112,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={f} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[3]}<div>&nbsp;</div>{lastName[3]}</ul>
@@ -124,8 +124,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={g} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[4]}<div>&nbsp;</div>{lastName[4]}</ul>
@@ -136,8 +136,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={h} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[1]}<div>&nbsp;</div>{lastName[1]}</ul>
@@ -148,8 +148,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={i} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[14]}<div>&nbsp;</div>{lastName[14]}</ul>
@@ -160,8 +160,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={j} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[16]}<div>&nbsp;</div>{lastName[16]}</ul>
@@ -172,8 +172,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={k} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[5]}<div>&nbsp;</div>{lastName[5]}</ul>
@@ -184,8 +184,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={l} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[8]}<div>&nbsp;</div>{lastName[8]}</ul>
@@ -196,8 +196,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={m} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[6]}<div>&nbsp;</div>{lastName[6]}</ul>
@@ -208,8 +208,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={n} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[13]}<div>&nbsp;</div>{lastName[13]}</ul>
@@ -220,8 +220,8 @@ class Team extends React.Component {
                             <figure className="team__members_member_image_overlay">
                                 <img src={o} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><i className="fa fa-instagram"></i></a>
-                                    <a className="socialIcon" href="#"><i className="fa fa-linkedin-square"></i></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{firstName[17]}<div>&nbsp;</div>{lastName[17]}</ul>
