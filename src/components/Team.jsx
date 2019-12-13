@@ -17,7 +17,6 @@ import n from '../assets/images/14.jpg'
 import o from '../assets/images/15.jpg'
 import axios from 'axios'
 
-
 class Team extends React.Component {
     state = {
         team: []

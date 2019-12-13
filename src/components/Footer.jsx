@@ -25,7 +25,11 @@ class Footer extends React.Component {
                         <a href="#" className="footer__link">Send Us Your Email</a>
                         <p className="footer__copyright">
                             This independent TEDx event is operated under license from TED. | Copyright &copy; 2019
-                            TEDxUniversityOfIsfahan | All Rights Reserved.
+                            TEDxUniversityOfIsfahan | All Rights Reserved.| This website is created by <a
+                            href="https://www.linkedin.com/in/rezahasani78/" className="web-creators" target="_blank">Reza
+                            Hasani</a> & <a href="https://www.linkedin.com/in/farid-shokri/" className="web-creators" target="_blank">Farid
+                            Shokri</a> & <a href="https://www.linkedin.com/in/mmoallemi99/" className="web-creators" target="_blank">Mohammad
+                            Moallemi</a>
                         </p>
                     </div>
                 </footer>
