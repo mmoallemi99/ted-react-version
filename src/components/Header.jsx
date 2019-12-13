@@ -3,6 +3,7 @@ import '../assets/styles/home-page.scss'
 import logo from '../assets/images/Logo.png'
 
 function Header() {
+    console.log("this website is React Version of TEDxUniverityOfIsfahan created by Reza Hasani| you can see my CV here: "+ 'https://www.linkedin.com/in/rezahasani78/');
     return (
         <>
             <header className="header">
