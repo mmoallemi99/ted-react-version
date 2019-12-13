@@ -183,6 +183,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: black;
+  display: flex;
 }
 
 .team__title {
@@ -415,7 +416,9 @@ body {
   border-bottom: 3px solid #575757;
   display: block;
   transition: all .3s;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
+
 
 .form__input:focus {
   outline: none;
@@ -424,6 +427,7 @@ body {
 }
 
 .form__input:focus:invalid {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   border-bottom: 3px solid #ff2b06;
 }
 
@@ -436,9 +440,7 @@ body {
   font-family: SF, sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
-  margin-left: 5rem;
-  margin-top: .7rem;
-  margin-bottom: .7rem;
+  margin: .7rem 3rem .7rem 5rem;
   display: block;
   transition: all .3s;
   align-self: flex-start;
@@ -463,10 +465,23 @@ body {
 }
 
 .form__textarea {
+  font-family: SF, sans-serif;
+  font-size: 1.4rem;
   resize: none;
+  border: 0;
+  border-left: 3px solid #575757;
+  padding: 1.5rem 2rem;
   width: 90%;
-  height: 5rem;
-  color: rgba(0, 0, 0, 0.3);
+  height: 8rem;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.form__textarea:focus {
+  outline: none;
+  resize: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  border-left: 3px solid #ff2b06;
 }
 
 .registerPopUp {
@@ -997,6 +1012,10 @@ body {
 
 
 .speakers__people_person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 5rem;
   position: relative;
 }
@@ -1036,11 +1055,14 @@ body {
 }
 
 .speakers__people_person_name {
+  display: flex;
   margin-bottom: 1rem;
+  list-style: none;
 }
 
 .speakers__people_person_topic {
   padding: 0 2rem;
+  list-style: none;
 }
 
 .what {
@@ -1166,8 +1188,16 @@ body {
 }
 
 .team__members_member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 5rem;
   position: relative;
+}
+
+.team__members_member_name, .team__members_member_position {
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 62em) {
