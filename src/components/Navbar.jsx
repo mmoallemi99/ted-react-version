@@ -121,7 +121,7 @@ class Navbar extends React.Component {
                                 <a href="#"><li>Home</li></a>
                                 <a href="#"><li>The Speakers</li></a>
                                 <a href="#"><li>Our Team</li></a>
-                                <a href="#"><li>Sponsers</li></a>
+                                <a href="#"><li>SponsersregisterPopUp__info</li></a>
                             </ul>
                         </div>
                     </nav>
@@ -142,6 +142,13 @@ class Navbar extends React.Component {
                                 <h2 className="description__title">Register</h2>
                                 <span className="underline_red"></span>
                                 <span className="underline_black"></span>
+                                <div className="registerPopUp__info">
+                                    <p>Filling this form does not mean you have registered for the event. We will
+                                        contact you after reviewing your request.</p>
+                                    <p>Ticket price for University of Isfahan students will be 50 thousand tomans, for
+                                        other students 75 thousand toman and the others will be 100 thousand tomans.</p>
+                                </div>
+
                             </div>
 
                             <form action="#" className="form" method="post">
