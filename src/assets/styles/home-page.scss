@@ -479,6 +479,21 @@ body {
   transition: all .2s ease-in-out;
 }
 
+.registerPopUp__info {
+  width: 85%;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: #ffffe0;
+  border-left: 5px solid #e6db55;
+  color: #c0b000;
+}
+
+.registerPopUp__info p {
+  font-family: SF_bold, sans-serif;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
 .registerPopUp__closebtn {
   position: sticky;
   top: 0;
