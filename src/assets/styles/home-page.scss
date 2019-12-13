@@ -250,7 +250,7 @@ body {
 }
 
 .header {
-  background-image: url("/static/img/src/assets/images/headerBG.png");
+  background-image: url("../images/headerBG.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -720,6 +720,7 @@ body {
   font-size: 1.8rem;
   text-align: center;
 }
+
 
 .description__paragraph p {
   margin-top: .5rem;
