@@ -86,7 +86,7 @@ class Navbar extends React.Component {
                 console.log(res);
                 console.log(res.data);
                 // window.location.reload(true);
-                window.open(domain);
+                window.open(domain, '_self');
             })
             .catch(err => {
                 console.table(err);
