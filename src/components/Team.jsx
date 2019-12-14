@@ -18,7 +18,7 @@ class Team extends React.Component {
 
     render() {
         let team_members = this.state.team.map( function (person, index) {
-            if (member.instagram_account )
+            // if (member.instagram_account)
             let member = (
                         <div key={index} className="team__members_member">
                             <figure className="team__members_member_image_overlay">
