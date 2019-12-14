@@ -18,7 +18,7 @@ class Navbar extends React.Component {
         before_tedxes: "",
         what_made_you: "",
         how_familiar: "",
-        expects: ""
+        expects: "",
     };
 
     handleChange1 = event => {
@@ -85,6 +85,7 @@ class Navbar extends React.Component {
             .then(res => {
                 console.log(res);
                 console.log(res.data);
+                window.location.reload();
             })
             .catch(err => {
                 console.table(err);
