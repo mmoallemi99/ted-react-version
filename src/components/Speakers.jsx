@@ -10,7 +10,8 @@ class Speakers extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://tedxuniversityofisfahan.ir/api/speakers/`)
+        const domain = window.location.origin;
+        axios.get(`${domain}/api/speakers/`)
             .then(res => {
                 const speakers = res.data;
                 this.setState({ speakers });

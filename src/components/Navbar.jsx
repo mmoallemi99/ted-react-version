@@ -80,7 +80,8 @@ class Navbar extends React.Component {
             expects: this.state.expects
         };
 
-        axios.post(`http://tedxuniversityofisfahan.ir/api/register/`, all)
+        const domain = window.location.origin;
+        axios.post(`${domain}/api/register/`, all)
             .then(res => {
                 console.log(res);
                 console.log(res.data);

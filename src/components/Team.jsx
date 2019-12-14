@@ -8,7 +8,8 @@ class Team extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://tedxuniversityofisfahan.ir/api/staffs/`)
+        const domain = window.location.origin;
+        axios.get(`${domain}/api/staffs/`)
             .then(res => {
                 const team = res.data;
                 this.setState({team});
