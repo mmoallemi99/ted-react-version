@@ -23,7 +23,7 @@ class Team extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://127.0.0.1:8000/api/staffs/`)
+        axios.get(`http://tedxuniversityofisfahan.ir/api/staffs/`)
             .then(res => {
                 const team = res.data;
                 this.setState({team});

@@ -80,7 +80,7 @@ class Navbar extends React.Component {
             expects: this.state.expects
         };
 
-        axios.post(`http://127.0.0.1:8000/api/register/`, all)
+        axios.post(`http://tedxuniversityofisfahan.ir/api/register/`, all)
             .then(res => {
                 console.log(res);
                 console.log(res.data);

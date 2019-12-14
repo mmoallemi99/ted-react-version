@@ -12,7 +12,7 @@ class Speakers extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://127.0.0.1:8000/api/speakers/`)
+        axios.get(`http://tedxuniversityofisfahan.ir/api/speakers/`)
             .then(res => {
                 const speakers = res.data;
                 this.setState({ speakers });
