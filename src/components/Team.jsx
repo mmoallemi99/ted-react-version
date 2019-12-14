@@ -1,20 +1,5 @@
 import React from 'react'
 import '../assets/styles/home-page.scss'
-import a from '../assets/images/1.jpg'
-import b from '../assets/images/2.jpg'
-import c from '../assets/images/3.jpg'
-import d from '../assets/images/4.jpg'
-import e from '../assets/images/5.jpg'
-import f from '../assets/images/6.jpg'
-import g from '../assets/images/7.jpg'
-import h from '../assets/images/8.jpg'
-import i from '../assets/images/9.jpg'
-import j from '../assets/images/10.jpg'
-import k from '../assets/images/11.jpg'
-import l from '../assets/images/12.jpg'
-import m from '../assets/images/13.jpg'
-import n from '../assets/images/14.jpg'
-import o from '../assets/images/15.jpg'
 import axios from 'axios'
 
 class Team extends React.Component {
@@ -23,7 +8,7 @@ class Team extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://127.0.0.1:8000/api/staffs/`)
+        axios.get(`http://tedxuniversityofisfahan.ir/api/staffs/`)
             .then(res => {
                 const team = res.data;
                 this.setState({team});
