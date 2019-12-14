@@ -26,8 +26,8 @@ class Speakers extends React.Component {
                             <figure className="speakers__people_person_image_overlay">
                                 <img src={speaker.picture} alt="" className="speakers__people_person_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
-                                    <a className="socialIcon" href="#"><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href={speaker.linkedin_account}><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href={speaker.instagram_account}><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <h3 className="speakers__people_person_name">{speaker.first_name}<div>&nbsp;</div>{speaker.last_name}</h3>
