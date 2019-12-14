@@ -43,10 +43,10 @@ class Navbar extends React.Component {
         this.setState({study: event.target.value});
     };
     handleChange8 = event => {
-        this.setState({start: event.target.value});
+        this.setState({start: Number(event.target.value)});
     };
     handleChange9 = event => {
-        this.setState({end: event.target.value});
+        this.setState({end: Number(event.target.value)});
     };
     handleChange10 = event => {
         this.setState({before_tedxes: event.target.value});
@@ -80,10 +80,14 @@ class Navbar extends React.Component {
             expects: this.state.expects
         };
 
-        axios.post(`http://127.0.0.1:8000/api/register/`, {all})
+        axios.post(`http://127.0.0.1:8000/api/register/`, all)
             .then(res => {
                 console.log(res);
                 console.log(res.data);
+            })
+            .catch(err => {
+                console.table(err);
+                console.table(err.data);
             })
     };
 
@@ -212,12 +216,14 @@ class Navbar extends React.Component {
 
                                 <div className="form__group">
                                     <input type="number" className="form__input" placeholder="Start Year" id="start"
+                                           onChange={this.handleChange8}
                                            required />
                                         <label htmlFor="start" className="form__label">Start Year</label>
                                 </div>
 
                                 <div className="form__group">
                                     <input type="number" className="form__input" placeholder="End Year (or expected)"
+                                           onChange={this.handleChange9}
                                            id="end" required />
                                         <label htmlFor="end" className="form__label">End Year (or expected)</label>
                                 </div>
