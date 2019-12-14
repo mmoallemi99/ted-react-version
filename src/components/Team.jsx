@@ -18,13 +18,14 @@ class Team extends React.Component {
 
     render() {
         let team_members = this.state.team.map( function (person, index) {
+            if (member.instagram_account )
             let member = (
                         <div key={index} className="team__members_member">
                             <figure className="team__members_member_image_overlay">
                                 <img src={person.picture} alt="" className="team__members_member_image"/>
                                 <figcaption className="icons">
-                                    <a className="socialIcon" href={person.linkedin_account}><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
-                                    <a className="socialIcon" href={person.instagram_account}><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href={"http://" + person.instagram_account}><img src={'static/img/src/assets/images/instagram.svg'} width="20px" /></a>
+                                    <a className="socialIcon" href={"http://" + person.linkedin_account}><img src={'static/img/src/assets/images/linkedin.svg'} width="20px" /></a>
                                 </figcaption>
                             </figure>
                             <ul className="team__members_member_name">{person.first_name}<div>&nbsp;</div>{person.last_name}</ul>
