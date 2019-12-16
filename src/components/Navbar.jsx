@@ -281,7 +281,8 @@ class Navbar extends React.Component {
                                 {(!this.state.request) ? (
                                     <div className="registerPopUp__err">
                                         <p>
-                                            A problem occured while registering your request!
+                                            A problem occured while registering your request :( <br />
+                                            please check inputs and try again :)
                                         </p>
                                     </div>
                                 ) : (
