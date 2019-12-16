@@ -1,8 +1,5 @@
 import React from 'react'
 import '../assets/styles/home-page.scss'
-import {ReactComponent as Instagram} from '../assets/images/instagram.svg'
-import {ReactComponent as Telegram} from '../assets/images/telegram.svg'
-import {ReactComponent as Twitter} from '../assets/images/twitter.svg'
 
 class Footer extends React.Component {
     render() {

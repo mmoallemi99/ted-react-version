@@ -34,7 +34,12 @@ function TEDxDescription() {
                     <span className="underline_red"></span>
                     <span className="underline_black"></span>
                     <p className="what__about_text">
-
+                        This is the first time that TEDxUniversityOfIsfahan is going to be held among the universities
+                        of Isfahan. The whole point of this event is to spread the “Ideas Worth Spreading”; besides,
+                        it’s going to connect the students from different fields of study and share their ideas with the
+                        world. In this event, members of the faculty, Doctors of Philosophy and successful graduates of
+                        the university are going to gather and share their ideas in 12 minutes or less. In Addition to
+                        that there will be guests from the academic associations and the university staff.
                     </p>
                 </div>
             </div>

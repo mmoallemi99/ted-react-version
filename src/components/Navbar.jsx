@@ -19,6 +19,7 @@ class Navbar extends React.Component {
         what_made_you: "",
         how_familiar: "",
         expects: "",
+        request: true
     };
 
     handleChange1 = event => {
@@ -83,12 +84,17 @@ class Navbar extends React.Component {
         const domain = window.location.origin;
         axios.post(`${domain}/api/register/`, all)
             .then(res => {
-                console.log(res);
+                console.log(res.status);
                 console.log(res.data);
                 // window.location.reload(true);
                 window.open(domain, '_self');
+                if(res.status !== 200)
+                    this.setState({request: false});
             })
             .catch(err => {
+                if(err.response.status !== 200)
+                    this.setState({request: false});
+                // this.setState({request: res.status});
                 console.table(err);
                 console.table(err.data);
             })
@@ -272,17 +278,16 @@ class Navbar extends React.Component {
                                 <div className="form__group--button">
                                     <button className="navbar__register" onClick={this.handleSubmit}>Register</button>
                                 </div>
-                                <div className="registerPopUp__true">
-                                    <p>
-                                        You have successfully registered!
-                                    </p>
-                                </div>
-
-                                <div className="registerPopUp__err">
-                                    <p>
-                                        A problem occured while registering your request!
-                                    </p>
-                                </div>
+                                {(!this.state.request) ? (
+                                    <div className="registerPopUp__err">
+                                        <p>
+                                            A problem occured while registering your request!
+                                        </p>
+                                    </div>
+                                ) : (
+                                    <div></div>
+                                )
+                                }
                             </form>
 
                         </div>
