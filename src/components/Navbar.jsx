@@ -220,15 +220,15 @@ class Navbar extends React.Component {
                                 <div className="form__group">
                                     <input type="number" className="form__input" placeholder="Start Year" id="start"
                                            onChange={this.handleChange8}
-                                           required />
-                                        <label htmlFor="start" className="form__label">Start Year</label>
+                                           required/>
+                                    <label htmlFor="start" className="form__label">Start Year</label>
                                 </div>
 
                                 <div className="form__group">
                                     <input type="number" className="form__input" placeholder="End Year (or expected)"
                                            onChange={this.handleChange9}
-                                           id="end" required />
-                                        <label htmlFor="end" className="form__label">End Year (or expected)</label>
+                                           id="end" required/>
+                                    <label htmlFor="end" className="form__label">End Year (or expected)</label>
                                 </div>
 
                                 <div className="form__group">
@@ -237,7 +237,7 @@ class Navbar extends React.Component {
                                         If you answered yes, what was the event?
                                     </label>
                                     <textarea onFocus="this.value = ''" className="form__textarea"
-                                              onChange={this.handleChange10} id="msg1" required>Have you ever attended in a TEDx event? If you answered yes, what was the event?
+                                              onChange={this.handleChange10} id="msg1" required>
                             </textarea>
                                 </div>
 
@@ -246,7 +246,7 @@ class Navbar extends React.Component {
                                         TEDxUniversityOfIsfahan?
                                     </label>
                                     <textarea onFocus="this.value = ''" className="form__textarea"
-                                              onChange={this.handleChange11} id="msg2" required>What made you attend to TEDxUniversityOfIsfahan?
+                                              onChange={this.handleChange11} id="msg2" required>
                             </textarea>
                                 </div>
 
@@ -256,7 +256,7 @@ class Navbar extends React.Component {
                                         speakers?
                                     </label>
                                     <textarea onFocus="this.value = ''" className="form__textarea"
-                                              onChange={this.handleChange12} id="msg3" required>How familiar are you with TEDx and its speakers?
+                                              onChange={this.handleChange12} id="msg3" required>
                             </textarea>
                                 </div>
 
@@ -265,12 +265,23 @@ class Navbar extends React.Component {
                                         TEDxUniversityOfIsfahan's speeches?
                                     </label>
                                     <textarea onFocus="this.value = ''" className="form__textarea" id="msg4"
-                                              onChange={this.handleChange13} required>What are your expectations of the TEDxUniversityOfIsfahan's speeches?
+                                              onChange={this.handleChange13} required>
                             </textarea>
                                 </div>
 
                                 <div className="form__group--button">
                                     <button className="navbar__register" onClick={this.handleSubmit}>Register</button>
+                                </div>
+                                <div className="registerPopUp__true">
+                                    <p>
+                                        You have successfully registered!
+                                    </p>
+                                </div>
+
+                                <div className="registerPopUp__err">
+                                    <p>
+                                        A problem occured while registering your request!
+                                    </p>
                                 </div>
                             </form>
 
@@ -279,9 +290,9 @@ class Navbar extends React.Component {
 
                 </div>
             </nav>
-    )
+        )
     }
 
-    }
+}
 
-    export default Navbar;
+export default Navbar;

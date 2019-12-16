@@ -512,6 +512,36 @@ body {
   text-align: justify;
 }
 
+.registerPopUp__true {
+  width: 85%;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: #D2FFCF;
+  border-left: 5px solid #47AF41;
+  color: #47AF41;
+}
+
+.registerPopUp__true p {
+  font-family: Sahel, sans-serif;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.registerPopUp__err {
+  width: 85%;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: #ffe2d9;
+  border-left: 5px solid #fe8f6b;
+  color: #ff4040;
+}
+
+.registerPopUp__err p {
+  font-family: Sahel, sans-serif;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
 .registerPopUp__closebtn {
   position: sticky;
   top: 0;
@@ -537,6 +567,13 @@ body {
   opacity: 0;
   transform: translate(-50%, -50%) scale(0.2);
   transition: all .3s .2s;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .registerPopUp__content {
+    width: 90%;
+    height: 85vh;
+  }
 }
 
 .registerPopUp__content .container {
@@ -949,6 +986,9 @@ body {
 }
 
 .speakers__people_person_image_overlay .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 20rem;
   height: 3rem;
@@ -996,6 +1036,11 @@ body {
 
 .speakers__people_person_image_overlay .icons .socialIcon:link, .speakers__people_person_image_overlay .icons .socialIcon:visited {
   color: white;
+  height: 2rem;
+}
+
+.speakers__people_person_image_overlay .icons .socialIcon img {
+  height: 2rem;
 }
 
 .speakers__people {
@@ -1144,6 +1189,9 @@ body {
 }
 
 .team__members_member_image_overlay .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 20rem;
   height: 3rem;
@@ -1174,6 +1222,11 @@ body {
 
 .team__members_member_image_overlay .icons .socialIcon {
   color: white;
+  height: 2rem;
+}
+
+.team__members_member_image_overlay .icons .socialIcon img {
+  height: 2rem;
 }
 
 .team__members_member_image_overlay .icons .socialIcon:link, .team__members_member_image_overlay .icons .socialIcon:visited {
