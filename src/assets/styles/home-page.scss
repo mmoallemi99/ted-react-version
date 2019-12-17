@@ -1619,3 +1619,16 @@ body {
 .loader-creators-line {
   color: rgb(255, 43, 6);
 }
+
+.loader-copyright {
+  color: white;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  padding-top: 8vh;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  font-size: 1rem;
+
+}

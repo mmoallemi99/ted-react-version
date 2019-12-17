@@ -27,6 +27,10 @@ class App extends React.Component {
                     <div className="loader-description"><span
                         style={{color: "#ff2b06", fontWeight: "700"}}>TEDx</span> is Loading...
                     </div>
+                    <div className="loader-copyright">React Loader developed and designed © 2020 <a
+                        href="https://www.linkedin.com/in/rezahasani78/"
+                        style={{textDecoration: "none", color: "#6bda65"}}> Reza Hasani </a> All Rights Reserved
+                    </div>
                     {/*// <div style={{color: "white", fontSize: "1rem"}}>Reza Hasani <span*/}
                     {/*className="loader-creators-line">&</span> Farid Shokri <span*/}
                     {/*className="loader-creators-line">&</span> Mohammad Moallemi</div>*/}
@@ -41,7 +45,7 @@ class App extends React.Component {
 }
 
 function demoAsyncCall() {
-    return new Promise((resolve) => setTimeout(() => resolve(), 3000));
+    return new Promise((resolve) => setTimeout(() => resolve(), 4000));
 }
 
 export default App;
