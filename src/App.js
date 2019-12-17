@@ -28,7 +28,7 @@ class App extends React.Component {
                         style={{color: "#ff2b06", fontWeight: "700"}}>TEDx</span> is Loading...
                     </div>
                     <div className="loader-copyright">React Loader developed and designed © 2020 <a
-                        href="https://www.linkedin.com/in/rezahasani78/"
+                        href="https://www.linkedin.com/in/rezahasani78/" target="_blank"
                         style={{textDecoration: "none", color: "#6bda65"}}> Reza Hasani </a> All Rights Reserved
                     </div>
                     {/*// <div style={{color: "white", fontSize: "1rem"}}>Reza Hasani <span*/}
