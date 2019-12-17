@@ -771,6 +771,7 @@ body {
   text-decoration: none;
   color: #ff2b06;
   font-weight: bold;
+  margin-right: 9vw;
 }
 
 .navbar__menu_list {
@@ -1368,10 +1369,8 @@ body {
   display: none;
   position: relative;
   top: 2px;
-  left: -24vw;
-
+  left: -31vw;
   z-index: 1;
-
   -webkit-user-select: none;
   user-select: none;
 }

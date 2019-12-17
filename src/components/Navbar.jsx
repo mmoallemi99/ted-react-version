@@ -140,7 +140,7 @@ class Navbar extends React.Component {
                                     <li>Our Team</li>
                                 </a>
                                 <a href="#">
-                                    <li>SponsersregisterPopUp__info</li>
+                                    <li>Sponsers</li>
                                 </a>
                             </ul>
                         </div>
