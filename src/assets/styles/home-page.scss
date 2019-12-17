@@ -263,9 +263,14 @@ body {
   height: 100vh;
   position: relative;
   width: 100%;
+  text-align: center;
 }
 
-.header__logo {
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 85%;
   position: absolute;
   top: 50%;
@@ -274,9 +279,14 @@ body {
 }
 
 @media only screen and (min-width: 56.25em) {
-  .header__logo {
+  .header__container {
     width: 60%;
   }
+}
+
+.header__logo {
+  width: 100%;
+  margin-bottom: 5rem;
 }
 
 .header__details {
@@ -364,6 +374,71 @@ body {
 .navbar__register:hover {
   background-color: rgba(255, 43, 6, 0.8);
   letter-spacing: 1.5px;
+}
+
+.registerBigButton,
+.registerBigButton:link,
+.registerBigButton:visited {
+  font-family: Diodrum_bold, sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: white;
+  background-color: #ff2b06;
+  border-radius: 5rem;
+  padding: 1rem 5rem 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+
+@media only screen and (max-width: 50em) {
+  .registerBigButton,
+  .registerBigButton:link,
+  .registerBigButton:visited {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (hover: hover) {
+  .registerBigButton:hover,
+  .registerBigButton:link:hover,
+  .registerBigButton:visited:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+  .registerBigButton:hover::after,
+  .registerBigButton:link:hover::after,
+  .registerBigButton:visited:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  .registerBigButton::after,
+  .registerBigButton:link::after,
+  .registerBigButton:visited::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+    background-color: #ff2b06;
+  }
+}
+
+.registerBigButton:active, .registerBigButton:focus,
+.registerBigButton:link:active,
+.registerBigButton:link:focus,
+.registerBigButton:visited:active,
+.registerBigButton:visited:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .form {

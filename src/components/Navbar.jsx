@@ -147,9 +147,6 @@ class Navbar extends React.Component {
                     </nav>
 
                     <div className="navbar__buttons">
-                        <a href="#registerPopUp" className="navbar__register">
-                            Register
-                        </a>
                         <a href="#" className="navbar__lang">
                             FA
                         </a>
