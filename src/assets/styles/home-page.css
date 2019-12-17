@@ -1487,11 +1487,6 @@ body {
   animation: load6 1.7s infinite ease, round 1.7s infinite ease;
 }
 
-@media only screen and (max-width: 800px) {
-  .loader {
-    font-size: 8vw;
-  }
-}
 @-webkit-keyframes load6 {
   0% {
     box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
@@ -1566,6 +1561,16 @@ body {
   height: 100px;
   width: 100%;
   font-size: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+  .loader {
+    font-size: 8vw;
+  }
+
+  .loader-copyright {
+    font-size: 9px;
+  }
 }
 
 /*# sourceMappingURL=home-page.css.map */
