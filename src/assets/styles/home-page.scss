@@ -1634,5 +1634,13 @@ body {
   }
   .loader-copyright {
     font-size: 9px;
+    padding-top: 11rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .loader-copyright {
+    font-size: 8px;
+    padding-top: 11rem;
   }
 }
