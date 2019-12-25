@@ -1,5 +1,6 @@
 import React from 'react';
-import HomePage from "./views/HomePage.jsx";
+import {routes} from './routes';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import loader from "./assets/images/audio.svg";
 import './assets/styles/home-page.scss'
 
@@ -9,7 +10,6 @@ class App extends React.Component {
     };
 
     componentDidMount() {
-        // this simulates an async action, after which the component will render the content
         demoAsyncCall().then(() => this.setState({loading: false}));
     }
 
@@ -39,7 +39,13 @@ class App extends React.Component {
         }
 
         return (
-            <div><HomePage/></div>
+            <Router>
+                <Switch>
+                    {routes.map((route) => {
+                        <Route {...route} />
+                    })}
+                </Switch>
+            </Router>
         );
     }
 }

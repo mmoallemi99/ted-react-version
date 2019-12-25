@@ -88,11 +88,11 @@ class Navbar extends React.Component {
                 console.log(res.data);
                 // window.location.reload(true);
                 window.open(domain, '_self');
-                if(res.status !== 200)
+                if (res.status !== 200)
                     this.setState({request: false});
             })
             .catch(err => {
-                if(err.response.status !== 200)
+                if (err.response.status !== 200)
                     this.setState({request: false});
                 // this.setState({request: res.status});
                 console.table(err);
@@ -278,7 +278,7 @@ class Navbar extends React.Component {
                                 {(!this.state.request) ? (
                                     <div className="registerPopUp__err">
                                         <p>
-                                            A problem occured while registering your request :( <br />
+                                            A problem occured while registering your request :( <br/>
                                             please check inputs and try again :)
                                         </p>
                                     </div>
