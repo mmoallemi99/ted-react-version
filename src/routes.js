@@ -1,5 +1,5 @@
 import HomePage from './views/HomePage.jsx'
-import Sponsers from './views/Sponsers'
+import Sponsers from './views/Sponsers.jsx'
 
 const routes = [
     {
@@ -13,4 +13,4 @@ const routes = [
     }
 ]
 
-export default routes
+export default routes;

@@ -44,8 +44,9 @@ class App extends React.Component {
             <Router>
                 <Switch>
                     {routes.map((route) => {
-                        <Route {...route} />
-                    )}}
+                        return <Route {...route} />;
+                      }
+                    )}
                 </Switch>
             </Router>
         );
