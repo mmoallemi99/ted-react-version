@@ -39,11 +39,13 @@ class App extends React.Component {
         }
 
         return (
+            // router must be fixed
+
             <Router>
                 <Switch>
                     {routes.map((route) => {
                         <Route {...route} />
-                    })}
+                    )}}
                 </Switch>
             </Router>
         );
