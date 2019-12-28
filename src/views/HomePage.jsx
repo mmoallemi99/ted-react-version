@@ -20,7 +20,6 @@ function HomePage() {
                 <Header/>
                 <StickyNavbar/>
                 <Description/>
-                <Countdown/>
                 <Speakers/>
                 <TEDxDescription/>
                 <Team/>
