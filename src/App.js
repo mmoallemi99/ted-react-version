@@ -54,7 +54,7 @@ class App extends React.Component {
 }
 
 function demoAsyncCall() {
-    return new Promise((resolve) => setTimeout(() => resolve(), 500));
+    return new Promise((resolve) => setTimeout(() => resolve(), 4000));
 }
 
 export default App;
