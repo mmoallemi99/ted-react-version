@@ -1,5 +1,5 @@
 import React from 'react';
-import {routes} from './routes';
+import routes from './routes';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import loader from "./assets/images/audio.svg";
 import './assets/styles/home-page.scss'
@@ -54,7 +54,7 @@ class App extends React.Component {
 }
 
 function demoAsyncCall() {
-    return new Promise((resolve) => setTimeout(() => resolve(), 4000));
+    return new Promise((resolve) => setTimeout(() => resolve(), 500));
 }
 
 export default App;

@@ -1,25 +1,26 @@
 import React from 'react';
 import '../assets/styles/home-page.scss'
-import '../assets/styles/sponsers.css'
-import {logo} from '../assets/images/Logo.png'
-import {logoBlack} from '../assets/images/logo_black.png'
-import {silver1} from '../assets/images/Silver-1.png'
-import {silver2} from '../assets/images/Silver-2.png'
-import {silver3} from '../assets/images/Silver-3.png'
-import {bronze1} from '../assets/images/Bronze-1.png'
-import {bronze2} from '../assets/images/Bronze-2.png'
-import {bronze3} from '../assets/images/Bronze-3.png'
-import {bronze4} from '../assets/images/Bronze-4.png'
+import '../assets/styles/sponsors.css'
+import {Link} from 'react-router-dom'
+import logo from '../assets/images/Logo.png'
+import logoBlack from '../assets/images/logo_black.png'
+import silver1 from '../assets/images/Silver-1.png'
+import silver2 from '../assets/images/Silver-2.png'
+import silver3 from '../assets/images/Silver-3.png'
+import bronze1 from '../assets/images/Bronze-1.png'
+import bronze2 from '../assets/images/Bronze-2.png'
+import bronze3 from '../assets/images/Bronze-3.png'
+import bronze4 from '../assets/images/Bronze-4.png'
 
 
-export function Sponsers() {
+export const Sponsors = () => {
     return (
         <>
             <div className="openingMenu">
                 <ul className="openingMenu__list">
                     <a className="openingMenu__close">&times;</a>
                     <li className="openingMenu__item">
-                        <a className="openingMenu__link" href="#">Home</a>
+                        <Link className="openingMenu__link" to="/">Home</Link>
                     </li>
                     <li className="openingMenu__item">
                         <a className="openingMenu__link" href="#">The Speakers</a>
@@ -40,8 +41,8 @@ export function Sponsers() {
                         </div>
                         <div className="stickyNavbar__menu">
                             <ul className="stickyNavbar__menu_list">
-                                <li className="stickyNavbar__menu_list_item"><a href="#"
-                                                                                className="stickyNavbar__menu_list_item_link">Home</a>
+                                <li className="stickyNavbar__menu_list_item"><Link to="/"
+                                                                                className="stickyNavbar__menu_list_item_link">Home</Link>
                                 </li>
                                 <li className="stickyNavbar__menu_list_item"><a href="#"
                                                                                 className="stickyNavbar__menu_list_item_link">The
@@ -52,15 +53,6 @@ export function Sponsers() {
                                 <li className="stickyNavbar__menu_list_item"><a
                                     className="stickyNavbar__menu_list_item_link">Sponsors</a></li>
                             </ul>
-                        </div>
-
-                        <div className=" stickyNavbar__buttons">
-                            <a href="#registerPopUp" className=" navbar__register">
-                                Register
-                            </a>
-                            <a href="#" className="navbar__lang">
-                                FA
-                            </a>
                         </div>
 
                     </div>

@@ -645,12 +645,23 @@ body {
   transition: all .3s .2s;
 }
 
-@media only screen and (max-width: 62.5em) {
+@media only screen and (max-width: 1175px) {
   .registerPopUp__content {
-    width: 90%;
-    height: 85vh;
+    height: 30vh;
+  }
+  .description__title {
+    margin-top: 4vh;
+    font-size: 3.8rem;
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .description__title {
+    font-size: 2.9rem;
+  }
+}
+
+
 
 .registerPopUp__content .container {
   text-align: center;
@@ -664,6 +675,7 @@ body {
 
 .registerPopUp:target .registerPopUp__content {
   opacity: 1;
+  overflow: hidden;
   transform: translate(-50%, -50%) scale(1);
 }
 

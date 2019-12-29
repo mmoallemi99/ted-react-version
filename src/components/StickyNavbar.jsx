@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/styles/home-page.scss'
 import logo from '../assets/images/logo_black.png'
+import {Link} from 'react-router-dom'
 
 function StickyNavbar() {
     return (
@@ -20,8 +21,8 @@ function StickyNavbar() {
                         <li className="stickyNavbar__menu_list_item"><a href="#"
                                                                         className="stickyNavbar__menu_list_item_link">Our
                             Team</a></li>
-                        <li className="stickyNavbar__menu_list_item"><a href="#"
-                                                                        className="stickyNavbar__menu_list_item_link">Sponsors</a>
+                        <li className="stickyNavbar__menu_list_item"><Link to="/sponsers"
+                                                                        className="stickyNavbar__menu_list_item_link">Sponsors</Link>
                         </li>
                     </ul>
                 </div>

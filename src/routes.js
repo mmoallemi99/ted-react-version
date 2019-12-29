@@ -1,5 +1,5 @@
 import HomePage from './views/HomePage.jsx'
-import Sponsers from './views/Sponsers.jsx'
+import {Sponsors} from './views/Sponsors.jsx'
 
 const routes = [
     {
@@ -8,8 +8,8 @@ const routes = [
         component: HomePage
     },
     {
-        path: "/sponsers",
-        component: Sponsers
+        path: "/Sponsors",
+        component: Sponsors
     }
 ]
 

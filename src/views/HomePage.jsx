@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar.jsx";
 import Header from "../components/Header.jsx";
 import StickyNavbar from "../components/StickyNavbar.jsx";
 import Description from "../components/Description.jsx";
-import Countdown from "../components/Countdown.jsx";
+// import Countdown from "../components/Countdown.jsx";
 import Speakers from "../components/Speakers.jsx";
 import TEDxDescription from "../components/TEDxDescription.jsx";
 import Team from "../components/Team.jsx";
@@ -20,7 +20,7 @@ function HomePage() {
                 <Header/>
                 <StickyNavbar/>
                 <Description/>
-                <Countdown/>
+                {/*<Countdown/>*/}
                 <Speakers/>
                 <TEDxDescription/>
                 <Team/>
