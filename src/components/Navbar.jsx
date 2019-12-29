@@ -113,10 +113,10 @@ class Navbar extends React.Component {
                             <li className="navbar__menu_list_item"><a href="#"
                                                                       className="navbar__menu_list_item_link">Home</a>
                             </li>
-                            <li className="navbar__menu_list_item"><a href="#" className="navbar__menu_list_item_link">The
+                            <li className="navbar__menu_list_item"><a href="#speakers" className="navbar__menu_list_item_link">The
                                 Speakers</a>
                             </li>
-                            <li className="navbar__menu_list_item"><a href="#" className="navbar__menu_list_item_link">Our
+                            <li className="navbar__menu_list_item"><a href="#team" className="navbar__menu_list_item_link">Our
                                 Team</a>
                             </li>
                             <li className="navbar__menu_list_item"><Link to="/sponsors"
@@ -134,10 +134,10 @@ class Navbar extends React.Component {
                                 <a href="#">
                                     <li>Home</li>
                                 </a>
-                                <a href="#">
+                                <a href="#speakers">
                                     <li>The Speakers</li>
                                 </a>
-                                <a href="#">
+                                <a href="#team">
                                     <li>Our Team</li>
                                 </a>
                                 <Link to="/sponsors">

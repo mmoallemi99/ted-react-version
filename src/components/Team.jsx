@@ -36,7 +36,7 @@ class Team extends React.Component {
         });
 
         return (
-            <section className="team">
+            <section className="team" id="team">
                 <div className="container">
                     <h2 className="team__title">Our Team</h2>
                     <span className="underline_red"></span>

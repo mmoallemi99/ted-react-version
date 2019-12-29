@@ -24,13 +24,13 @@ export const Sponsors = () => {
                         <Link className="openingMenu__link" to="/">Home</Link>
                     </li>
                     <li className="openingMenu__item">
-                        <a className="openingMenu__link" href="#">The Speakers</a>
+                        <a href="#" className="openingMenu__link">The Speakers</a>
                     </li>
                     <li className="openingMenu__item">
                         <a className="openingMenu__link" href="#">Our Team</a>
                     </li>
                     <li className="openingMenu__item">
-                        <a className="openingMenu__link" href="sponsors.html">Sponsors</a>
+                        <Link className="openingMenu__link" to="/sponsors">Sponsors</Link>
                     </li>
                 </ul>
             </div>

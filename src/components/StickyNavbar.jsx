@@ -15,10 +15,10 @@ function StickyNavbar() {
                         <li className="stickyNavbar__menu_list_item"><a href="#"
                                                                         className="stickyNavbar__menu_list_item_link">Home</a>
                         </li>
-                        <li className="stickyNavbar__menu_list_item"><a href="#"
+                        <li className="stickyNavbar__menu_list_item"><a href="#speakers"
                                                                         className="stickyNavbar__menu_list_item_link">The
                             Speakers</a></li>
-                        <li className="stickyNavbar__menu_list_item"><a href="#"
+                        <li className="stickyNavbar__menu_list_item"><a href="#team"
                                                                         className="stickyNavbar__menu_list_item_link">Our
                             Team</a></li>
                         <li className="stickyNavbar__menu_list_item"><Link to="/sponsers"

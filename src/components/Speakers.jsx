@@ -37,7 +37,7 @@ class Speakers extends React.Component {
             return person;
         });
         return (
-            <section className="speakers">
+            <section className="speakers" id="speakers">
                 <div className="container">
                     <h2 className="speakers__title">Speakers</h2>
                     <span className="underline_red"></span>
