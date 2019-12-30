@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/home-page.scss'
+import '../assets/styles/responsive-sponsers.scss'
 import '../assets/styles/sponsors.css'
 import {Link} from 'react-router-dom'
 import Footer from '../components/Footer.jsx'
@@ -38,12 +39,34 @@ export const Sponsors = () => {
                 <nav className="stickyNavbar">
                     <div className="navbar__container">
                         <div className="stickyNavbar__brand">
+                            <nav role="navigation1">
+                                <div id="menuToggle1">
+                                    <input type="checkbox" />
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <ul id="menu1">
+                                            <a href="#">
+                                                <li>Home</li>
+                                            </a>
+                                            <a href="#speakers">
+                                                <li>The Speakers</li>
+                                            </a>
+                                            <a href="#team">
+                                                <li>Our Team</li>
+                                            </a>
+                                            <a href="/sponsors">
+                                                <li>Sponsors</li>
+                                            </a>
+                                        </ul>
+                                </div>
+                            </nav>
                             <img src={logoBlack} alt=""/>
                         </div>
                         <div className="stickyNavbar__menu">
                             <ul className="stickyNavbar__menu_list">
                                 <li className="stickyNavbar__menu_list_item"><Link to="/"
-                                                                                className="stickyNavbar__menu_list_item_link">Home</Link>
+                                                                                   className="stickyNavbar__menu_list_item_link">Home</Link>
                                 </li>
                                 <li className="stickyNavbar__menu_list_item"><a href="#"
                                                                                 className="stickyNavbar__menu_list_item_link">The
@@ -118,7 +141,7 @@ export const Sponsors = () => {
                 {/*        </p>*/}
                 {/*    </div>*/}
                 {/*</footer>*/}
-                <Footer />
+                <Footer/>
                 <div className="registerPopUp" id="registerPopUp">
                     <div className="registerPopUp__content">
                         <a className="registerPopUp__closebtn" href="#"><i className="fa fa-remove"></i></a>
@@ -132,5 +155,5 @@ export const Sponsors = () => {
                 </div>
             </div>
         </>
-    )
+)
 }

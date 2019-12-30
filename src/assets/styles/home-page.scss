@@ -662,7 +662,6 @@ body {
 }
 
 
-
 .registerPopUp__content .container {
   text-align: center;
   margin: -2rem auto 2rem auto;
@@ -828,6 +827,9 @@ body {
 }
 
 .stickyNavbar__brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 0 0 30%;
 }
 
