@@ -41,24 +41,24 @@ export const Sponsors = () => {
                         <div className="stickyNavbar__brand">
                             <nav role="navigation1">
                                 <div id="menuToggle1">
-                                    <input type="checkbox" />
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <ul id="menu1">
-                                            <a href="#">
-                                                <li>Home</li>
-                                            </a>
-                                            <a href="#speakers">
-                                                <li>The Speakers</li>
-                                            </a>
-                                            <a href="#team">
-                                                <li>Our Team</li>
-                                            </a>
-                                            <a href="/sponsors">
-                                                <li>Sponsors</li>
-                                            </a>
-                                        </ul>
+                                    <input type="checkbox"/>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <ul id="menu1">
+                                        <Link to="/">
+                                            <li>Home</li>
+                                        </Link>
+                                        <Link to="/">
+                                            <li>The Speakers</li>
+                                        </Link>
+                                        <Link to="/">
+                                            <li>Our Team</li>
+                                        </Link>
+                                        <a href="#">
+                                            <li>Sponsors</li>
+                                        </a>
+                                    </ul>
                                 </div>
                             </nav>
                             <img src={logoBlack} alt=""/>
@@ -155,5 +155,5 @@ export const Sponsors = () => {
                 </div>
             </div>
         </>
-)
+    )
 }
