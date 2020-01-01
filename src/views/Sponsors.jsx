@@ -22,13 +22,13 @@ export const Sponsors = () => {
                 <ul className="openingMenu__list">
                     <a className="openingMenu__close">&times;</a>
                     <li className="openingMenu__item">
-                        <Link className="openingMenu__link" to="/">Home</Link>
+                        <Link to="/" className="openingMenu__link">Home</Link>
                     </li>
                     <li className="openingMenu__item">
-                        <a href="#" className="openingMenu__link">The Speakers</a>
+                        <Link to="/" className="openingMenu__link">The Speakers</Link>
                     </li>
                     <li className="openingMenu__item">
-                        <a className="openingMenu__link" href="#">Our Team</a>
+                        <Link to="/" className="openingMenu__link">Our Team</Link>
                     </li>
                     <li className="openingMenu__item">
                         <Link className="openingMenu__link" to="/sponsors">Sponsors</Link>
@@ -68,12 +68,12 @@ export const Sponsors = () => {
                                 <li className="stickyNavbar__menu_list_item"><Link to="/"
                                                                                    className="stickyNavbar__menu_list_item_link">Home</Link>
                                 </li>
-                                <li className="stickyNavbar__menu_list_item"><a href="#"
+                                <li className="stickyNavbar__menu_list_item"><Link to="/"
                                                                                 className="stickyNavbar__menu_list_item_link">The
-                                    Speakers</a></li>
-                                <li className="stickyNavbar__menu_list_item"><a href="#"
+                                    Speakers</Link></li>
+                                <li className="stickyNavbar__menu_list_item"><Link to="/"
                                                                                 className="stickyNavbar__menu_list_item_link">Our
-                                    Team</a></li>
+                                    Team</Link></li>
                                 <li className="stickyNavbar__menu_list_item"><a
                                     className="stickyNavbar__menu_list_item_link">Sponsors</a></li>
                             </ul>
